@@ -1,0 +1,10 @@
+CREATE DATABASE BMIDatabase;
+
+USE BMIDatabase;
+
+CREATE TABLE BMITable (
+    bmi_range VARCHAR(50),
+    status VARCHAR(50),
+    count INT,
+    percentage VARCHAR(10)
+);
